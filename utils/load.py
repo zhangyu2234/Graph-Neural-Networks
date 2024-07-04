@@ -11,7 +11,7 @@ import numpy as np
 import scipy.sparse as sp
 import torch
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+## device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 class Load_Data_Construct_A_For_GNN():
   def __init__(self, dir1, dir2, device):
